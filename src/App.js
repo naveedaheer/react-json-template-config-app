@@ -6,17 +6,17 @@ import { Col, Row, Container } from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <Container>
+    <div>
+      {/* <Container> */}
       <Row>
       <Col lg={4}>
-      <LeftPanel />
+      {/* <LeftPanel /> */}
       </Col>
-      <Col lg={8}>
+      <Col lg={4}>
       <UploadTemplate />
       </Col>
       </Row>
-      </Container>
+      {/* </Container> */}
     </div>
   );
 }
