@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LeftPanel from './components/left-panel'
+import LeftPanel from './components/leftPanel/leftPanel';
 
 function App() {
   return (
