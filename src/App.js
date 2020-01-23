@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import LeftPanel from './components/leftPanel/leftPanel';
+import UploadTemplate from './components/uploadTemplate/uploadTemplate';
 
 function App() {
   return (
     <div className="App">
       <LeftPanel />
+      <UploadTemplate />
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
